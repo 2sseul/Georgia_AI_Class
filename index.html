@@ -1,90 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>About Me - Iseul</title>
-    <style>
-      body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f9f9f9;
-        color: #333;
-        text-align: center;
-        padding: 40px;
-        margin: 0;
-      }
+<head>
+  <meta charset="UTF-8">
+  <title>About Me - Iseul</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      background-color: #ffffff;
+      border-radius: 15px;
+    }
 
-      h1 {
-        font-size: 2.5em;
-        margin-bottom: 10px;
-      }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #444;
+    }
 
-      h3 {
-        font-weight: normal;
-        color: #555;
-        margin-top: 0;
-        margin-bottom: 30px;
-      }
+    h2 {
+      color: #2c3e50;
+      margin-top: 40px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
 
-      img {
-        border-radius: 50%;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        margin: 20px 0;
-      }
+    h3 {
+      font-weight: normal;
+      font-size: 1.2em;
+      color: #555;
+      text-align: center;
+    }
 
-      a {
-        color: #0077cc;
-        text-decoration: none;
-        font-weight: bold;
-      }
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 50%;
+      border: 3px solid #ddd;
+    }
 
-      a:hover {
-        text-decoration: underline;
-      }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
 
-      p {
-        margin-bottom: 40px;
-        font-size: 1.1em;
-      }
+    a:hover {
+      text-decoration: underline;
+    }
 
-      iframe {
-        border: none;
-        border-radius: 10px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      }
+    mark {
+      background-color: #fff6a9;
+    }
 
-      mark {
-        background-color: #fffb91;
-        padding: 0 4px;
-        border-radius: 3px;
-      }
+    iframe {
+      display: block;
+      margin: 20px auto;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
 
-      u {
-        text-decoration: underline dashed;
-        text-decoration-color: #888;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>👋 Hi, I'm Iseul!</h1>
+    p {
+      margin-bottom: 20px;
+    }
 
-    <h3>
-      I'm a student majoring in <u>Computer Engineering</u>.  
-      I love working on <mark>AI</mark> projects and solving real-world problems through code.
-    </h3>
+    ul {
+      padding-left: 20px;
+    }
 
-    <img src="https://avatars.githubusercontent.com/u/109618184?v=4" alt="My profile photo" width="150">
+    ul li {
+      margin-bottom: 8px;
+    }
 
-    <p>
-      🔗 Visit my <a href="https://github.com/2sseul">GitHub</a>
-      <br>
-      🔗 Visit my <a href="https://instagram.com/thjijth">Instagram</a>
-    </p>
+    hr {
+      border: none;
+      border-top: 1px solid #eee;
+      margin: 30px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>👋 Hi, I'm Iseul!</h1>
 
-    <h2>💬 Try chatting with me!</h2>
-    <iframe src="https://landbot.online/v3/H-3074070-USC789M6788OY4RD/index.html"
-            width="350"
-            height="500"
-            title="Chatbot">
-    </iframe>
-  </body>
+  <h3>
+    I'm a student majoring in <u>Computer Engineering</u>.<br>
+    I love working on <mark>AI</mark> projects and solving real-world problems through code.
+  </h3>
+
+  <img src="https://avatars.githubusercontent.com/u/109618184?v=4" alt="My profile photo" width="150">
+
+  <hr>
+
+  <h2>📎 Links</h2>
+  <p>
+    🔗 Visit my <a href="https://github.com/2sseul" target="_blank">GitHub</a><br>
+    🔗 Visit my <a href="https://instagram.com/thjijth" target="_blank">Instagram</a>
+  </p>
+
+  <hr>
+
+  <h2>🎵 My Favorite Song</h2>
+  <p>
+    I really enjoy listening to <strong>“Pink Venom”</strong> by <u>BLACKPINK</u>.<br>
+    The beat is strong, the lyrics are powerful, and the vibe is <i>unforgettable</i>.<br>
+    It gives me energy when I’m coding!
+  </p>
+
+  <hr>
+
+  <h2>🧠 I'm into...</h2>
+  <ul>
+    <li>AI & machine learning</li>
+    <li>Backend development</li>
+    <li>Writing tech blogs</li>
+    <li>Watching animations</li>
+    <li>Drinking <mark>coffee</mark> and <mark>green tea</mark> ☕🍵</li>
+  </ul>
+
+  <hr>
+
+  <h2>💬 Try chatting with me!</h2>
+  <p>Here's a chatbot version of me you can talk to 😄</p>
+  <iframe src="https://landbot.online/v3/H-3074070-USC789M6788OY4RD/index.html"
+          width="350"
+          height="500"
+          title="Chatbot">
+  </iframe>
+</body>
 </html>
